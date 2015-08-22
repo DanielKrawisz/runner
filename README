@@ -1,0 +1,4 @@
+This is a simple struct in go that works like a machine that can be turned
+on and off. It includes the functions Start, Stop, Running, and Wait. You
+pass it a list of functions that are to be run as goroutines, and the Runner
+ensures that the goroutines have finished before Stop finishes.
